@@ -1,8 +1,26 @@
 aid: salvo-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salvo-health.png
 name: Salvo Health
-description: 'Salvo Health is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Salvo Health is a virtual care company delivering continuous gastrointestinal
+  and metabolic care through integrated, tech-enabled clinical teams. Its platform pairs
+  registered dietitians, licensed nurses, and behavioral health specialists with a patient
+  mobile app and remote patient monitoring to manage conditions including IBS, obesity,
+  GLP-1/anti-obesity therapy, and fatty liver disease (MASH/MASLD). Adherence data and
+  monthly patient reports are integrated directly into provider EHR systems. Salvo Health
+  is a portfolio company of Threshold Ventures. As of this profile the company exposes
+  no public developer API, SDK, or documentation surface; this record captures its public
+  identity and web properties for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/salvo-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Gastrointestinal
+- Metabolic Health
+- Remote Patient Monitoring
+- Virtual Care
+- EHR Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/salvo-health-domain-security.yml
 - type: Website
   url: https://www.salvohealth.com/
+- type: Blog
+  url: https://www.salvohealth.com/blog
+- type: PrivacyPolicy
+  url: https://www.salvohealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.salvohealth.com/terms-of-service
+- type: SignUp
+  url: https://forms.salvohealth.com/getstarted
+- type: Support
+  url: mailto:support@salvohealth.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
